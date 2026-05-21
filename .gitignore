@@ -1,0 +1,17 @@
+# Local Netlify folder
+.netlify
+node_modules
+.vercel
+.next
+raw_videos_backup/
+release/
+release.zip
+.env*.local
+.DS_Store
+*.local
+
+# Ignore large video assets (since we use YouTube embeds / external links)
+*.mov
+*.mp4
+*.zip
+*.tar.gz

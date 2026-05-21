@@ -1,0 +1,38 @@
+# Disable directory browsing
+Options -Indexes
+
+# Enable Gzip Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Security Headers for static assets
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "origin-when-cross-origin"
+  Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+</IfModule>
+
+# Cache Control for static assets (public folder)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Reverse Proxy to Next.js Node.js server (e.g. running on localhost:3000)
+# Uncomment the lines below if Apache is used as a reverse proxy
+# <IfModule mod_proxy.c>
+#   ProxyPreserveHost On
+#   ProxyPass / http://127.0.0.1:3000/
+#   ProxyPassReverse / http://127.0.0.1:3000/
+# </IfModule>

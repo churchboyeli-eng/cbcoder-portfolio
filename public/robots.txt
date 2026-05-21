@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+Disallow: /private.html
+
+Sitemap: https://cbvisuals.com/sitemap.xml

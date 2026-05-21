@@ -1,7 +1,6 @@
-import fs from 'fs';
-import path from 'path';
 import Image from 'next/image';
 import PhotographyGallery from './PhotographyGallery';
+import photoData from './photoData.json';
 
 export const metadata = {
   title: 'Photography | CBCODER',
@@ -11,38 +10,7 @@ export const metadata = {
 export const revalidate = 0;
 
 export default function PhotographyPage() {
-  const publicDir = path.join(process.cwd(), 'public');
-  
-  const categoriesMap: Record<string, string> = {
-    'Behind The Scenes': 'BEHIND THE SCENES',
-    'expedition': 'EXPEDITION',
-    'hotel': 'HOTEL',
-    'safari': 'SAFARI',
-    'event': 'EVENT & EXPERIENCE',
-    'sports': 'SPORTS',
-    'conservation': 'CONSERVATION',
-  };
-
-  const photos: { src: string; category: string; alt: string }[] = [];
-
-  Object.entries(categoriesMap).forEach(([folderName, categoryName]) => {
-    const dirPath = path.join(publicDir, folderName);
-    if (fs.existsSync(dirPath)) {
-      const files = fs.readdirSync(dirPath);
-      files.forEach((file) => {
-        if (/\.(jpg|jpeg|png|webp|gif|JPG)$/i.test(file)) {
-          // Properly encode path segments for URLs
-          const encodedFolder = folderName.split('/').map(segment => encodeURIComponent(segment)).join('/');
-          const encodedFile = encodeURIComponent(file);
-          photos.push({
-            src: `/${encodedFolder}/${encodedFile}`,
-            category: categoryName,
-            alt: file.split('.')[0] || categoryName,
-          });
-        }
-      });
-    }
-  });
+  const photos = photoData;
 
   // Use the first image from expedition as hero, fallback to specific one
   const heroImage = photos.find(p => p.src.includes('expedition'))?.src || "/expedition/kilimanjaro%20-2.JPG";

@@ -9,7 +9,7 @@ export const metadata = {
 const soundData = [
   {
     name: 'DJI Mic 2 Wireless Microphone System',
-    image: '/camera image/sound/DJI Mic.jpg',
+    image: '/camera-image/sound/DJI Mic.jpg',
     category: 'Wireless',
     specs: [
       '2.4 GHz Wireless, Up to 300m Range',
@@ -22,7 +22,7 @@ const soundData = [
   },
   {
     name: 'DJI Lavalier Microphone (Wired)',
-    image: '/camera image/sound/DJI Lavalier.jpg',
+    image: '/camera-image/sound/DJI Lavalier.jpg',
     category: 'Lavalier',
     specs: [
       'Omnidirectional Condenser Mic',
@@ -35,7 +35,7 @@ const soundData = [
   },
   {
     name: 'RØDE VideoMic Pro+ Shotgun Mic',
-    image: '/camera image/sound/RODE VideoMic.jpg',
+    image: '/camera-image/sound/RODE VideoMic.jpg',
     category: 'Shotgun',
     specs: [
       'Super-Cardioid Directional Condenser',
@@ -48,7 +48,7 @@ const soundData = [
   },
   {
     name: 'Sony UWP-D27 Wireless Lavalier System',
-    image: '/camera image/sound/Sony UWP-D27.jpg',
+    image: '/camera-image/sound/Sony UWP-D27.jpg',
     category: 'Wireless',
     specs: [
       'UHF Wireless, 30m Clear Range',
@@ -61,7 +61,7 @@ const soundData = [
   },
   {
     name: 'Zoom H5 Studio 4-Track Recorder',
-    image: '/camera image/sound/Zoom H5studio 4.jpg',
+    image: '/camera-image/sound/Zoom H5studio 4.jpg',
     category: 'Recorder',
     specs: [
       '4-Input / 4-Track Simultaneous Recording',
@@ -74,7 +74,7 @@ const soundData = [
   },
   {
     name: 'Zoom H4essential 4-Track Portable Recorder',
-    image: '/camera image/sound/Zoom H4essential 4.jpg',
+    image: '/camera-image/sound/Zoom H4essential 4.jpg',
     category: 'Recorder',
     specs: [
       '4-Track Simultaneous Recording',

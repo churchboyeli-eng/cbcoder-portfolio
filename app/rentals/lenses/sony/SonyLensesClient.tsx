@@ -7,7 +7,7 @@ import Link from 'next/link';
 const lensesData = [
   {
     name: 'Sony FE 16-35mm f/4 ZA OSS',
-    image: '/camera image/lenses/Sony/Sony FE 16-35mm f:4 ZA OSS Lens.webp',
+    image: '/camera-image/lenses/Sony/Sony FE 16-35mm f:4 ZA OSS Lens.webp',
     category: 'Wide Zoom',
     dayRate: 20,
     bestFor: 'Architecture & Landscapes',
@@ -15,7 +15,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 24-70mm f/2.8 GM',
-    image: '/camera image/lenses/Sony/Sony FE 24-70mm f:2.8 GM Lens .jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 24-70mm f:2.8 GM Lens .jpg',
     category: 'Standard Zoom',
     dayRate: 25,
     bestFor: 'Events & Weddings',
@@ -23,7 +23,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 24-70mm f/4 ZA OSS',
-    image: '/camera image/lenses/Sony/Sony FE 24-70mm f:4 ZA OSS Lens.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 24-70mm f:4 ZA OSS Lens.jpg',
     category: 'Standard Zoom',
     dayRate: 16,
     bestFor: 'Travel & Vlogging',
@@ -31,7 +31,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 24-105mm f/4 G OSS',
-    image: '/camera image/lenses/Sony/Sony FE 24-105mm f:4 G OSS Lens.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 24-105mm f:4 G OSS Lens.jpg',
     category: 'Standard Zoom',
     dayRate: 22,
     bestFor: 'Documentary & Run & Gun',
@@ -39,7 +39,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE PZ 16-35mm f/4 G',
-    image: '/camera image/lenses/Sony/Sony FE PZ 16-35mm.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE PZ 16-35mm.jpg',
     category: 'Wide Zoom',
     dayRate: 22,
     bestFor: 'Video & Broadcast',
@@ -47,7 +47,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 35mm f/1.8',
-    image: '/camera image/lenses/Sony/Sony FE 35mm f:1.8 Lens .jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 35mm f:1.8 Lens .jpg',
     category: 'Prime',
     dayRate: 15,
     bestFor: 'Street & Narrative Film',
@@ -55,7 +55,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 50mm f/1.8',
-    image: '/camera image/lenses/Sony/Sony FE 50mm.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 50mm.jpg',
     category: 'Prime',
     dayRate: 12,
     bestFor: 'Everyday & Portraits',
@@ -63,7 +63,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 70-200mm f/2.8 GM OSS',
-    image: '/camera image/lenses/Sony/Sony FE 70-200mm f:2.8 GM OSS Lens.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 70-200mm f:2.8 GM OSS Lens.jpg',
     category: 'Tele Zoom',
     dayRate: 32,
     bestFor: 'Sports & Wildlife',
@@ -71,7 +71,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 70-200mm f/4 G OSS',
-    image: '/camera image/lenses/Sony/Sony FE 70-200mm f:4 G OSS Lens.jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 70-200mm f:4 G OSS Lens.jpg',
     category: 'Tele Zoom',
     dayRate: 25,
     bestFor: 'Outdoor Events & Nature',
@@ -79,7 +79,7 @@ const lensesData = [
   },
   {
     name: 'Sony FE 85mm f/1.8',
-    image: '/camera image/lenses/Sony/Sony FE 85mm f:1.8 Lens .jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 85mm f:1.8 Lens .jpg',
     category: 'Prime',
     dayRate: 16,
     bestFor: 'Portraits & Headshots',
@@ -87,7 +87,7 @@ const lensesData = [
   },
   {
     name: 'Sigma 85mm f/1.4 Art (Sony E)',
-    image: '/camera image/lenses/Sony/Sigma 85mm sony.jpg',
+    image: '/camera-image/lenses/Sony/Sigma 85mm sony.jpg',
     category: 'Prime',
     dayRate: 20,
     bestFor: 'Cinematic Portraits',

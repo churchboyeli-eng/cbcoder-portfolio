@@ -9,7 +9,7 @@ export const metadata = {
 const lightingData = [
   {
     name: 'Aputure 600D Mark II LED Fresnel',
-    image: '/camera image/lighting/Aputure 600D LED.jpg',
+    image: '/camera-image/lighting/Aputure 600D LED.jpg',
     category: 'LED Fresnel',
     specs: [
       '600W Daylight LED (5600K)',
@@ -22,7 +22,7 @@ const lightingData = [
   },
   {
     name: 'Aputure Amaran 200D LED Light',
-    image: '/camera image/lighting/Aputure Amaran.jpg',
+    image: '/camera-image/lighting/Aputure Amaran.jpg',
     category: 'LED Panel',
     specs: [
       '200W Daylight LED (5600K)',
@@ -35,7 +35,7 @@ const lightingData = [
   },
   {
     name: 'GVM 150W RGB LED Video Light',
-    image: '/camera image/lighting/GVM 150W Video.jpg',
+    image: '/camera-image/lighting/GVM 150W Video.jpg',
     category: 'RGB LED',
     specs: [
       '150W Full-Color RGB + Bi-Color',
@@ -48,7 +48,7 @@ const lightingData = [
   },
   {
     name: 'Godox AD400Pro Outdoor Flash',
-    image: '/camera image/lighting/Godox AD400Pro.jpg',
+    image: '/camera-image/lighting/Godox AD400Pro.jpg',
     category: 'Strobe',
     specs: [
       '400Ws Li-Ion Battery-Powered Strobe',
@@ -61,7 +61,7 @@ const lightingData = [
   },
   {
     name: 'Godox TT600 Thinklite Flash',
-    image: '/camera image/lighting/Godox TT600.jpg',
+    image: '/camera-image/lighting/Godox TT600.jpg',
     category: 'Flash',
     specs: [
       'GN60 Guide Number, Manual 1/1–1/128',
@@ -74,7 +74,7 @@ const lightingData = [
   },
   {
     name: 'Godox V1 Round Head Flash',
-    image: '/camera image/lighting/Godox V1.jpg',
+    image: '/camera-image/lighting/Godox V1.jpg',
     category: 'Flash',
     specs: [
       'Round Head Design, GN92 Guide Number',
@@ -87,7 +87,7 @@ const lightingData = [
   },
   {
     name: 'NEEWER 35" Octagonal Softbox',
-    image: '/camera image/lighting/NEEWER 35.jpg',
+    image: '/camera-image/lighting/NEEWER 35.jpg',
     category: 'Modifier',
     specs: [
       '35" / 90cm Octagonal Softbox',
@@ -100,7 +100,7 @@ const lightingData = [
   },
   {
     name: 'Bolt VD-420 Vertical Light Stand',
-    image: '/camera image/lighting/Bolt VD-420.jpg',
+    image: '/camera-image/lighting/Bolt VD-420.jpg',
     category: 'Stand',
     specs: [
       'Max Height: 13.4 ft / 4.1 m',
@@ -113,7 +113,7 @@ const lightingData = [
   },
   {
     name: 'ZHIYUN MOLUS X100 Portable COB Light',
-    image: '/camera image/lighting/ZHIYUN .jpg',
+    image: '/camera-image/lighting/ZHIYUN .jpg',
     category: 'COB LED',
     specs: [
       '100W Bi-Color COB (2700K–6500K)',

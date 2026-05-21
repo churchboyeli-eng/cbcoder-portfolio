@@ -7,7 +7,7 @@ import Link from 'next/link';
 const lensesData = [
   {
     name: 'Canon RF 24-70mm f/2.8L IS USM',
-    image: '/camera image/lenses/canon/Canon RF 24-70mm.jpg',
+    image: '/camera-image/lenses/canon/Canon RF 24-70mm.jpg',
     category: 'Standard Zoom',
     dayRate: 25,
     bestFor: 'Events & Weddings',
@@ -15,7 +15,7 @@ const lensesData = [
   },
   {
     name: 'Canon RF 50mm f/1.2L USM',
-    image: '/camera image/lenses/canon/Canon RF 50mm.jpg',
+    image: '/camera-image/lenses/canon/Canon RF 50mm.jpg',
     category: 'Prime',
     dayRate: 22,
     bestFor: 'Cinematic Portraits',
@@ -23,7 +23,7 @@ const lensesData = [
   },
   {
     name: 'Canon RF 70-200mm f/2.8L IS USM',
-    image: '/camera image/lenses/canon/Canon RF 70-200mm.jpg',
+    image: '/camera-image/lenses/canon/Canon RF 70-200mm.jpg',
     category: 'Tele Zoom',
     dayRate: 30,
     bestFor: 'Sports & Wildlife',
@@ -31,7 +31,7 @@ const lensesData = [
   },
   {
     name: 'Sigma 150-600mm f/5-6.3 DG OS HSM (Canon)',
-    image: '/camera image/lenses/canon/Sigma 150-600mm.jpg',
+    image: '/camera-image/lenses/canon/Sigma 150-600mm.jpg',
     category: 'Super Tele',
     dayRate: 28,
     bestFor: 'Wildlife & Nature',

@@ -10,22 +10,22 @@ const lensCategories = [
   {
     name: 'Sony Lenses',
     href: '/rentals/lenses/sony',
-    image: '/camera image/lenses/Sony/Sony FE 24-70mm f:2.8 GM Lens .jpg',
+    image: '/camera-image/lenses/Sony/Sony FE 24-70mm f:2.8 GM Lens .jpg',
   },
   {
     name: 'Nikon Lenses',
     href: '/rentals/lenses/nikon',
-    image: '/camera image/lenses/nikon/Nikon NIKKOR Z 24-70mm.jpg',
+    image: '/camera-image/lenses/nikon/Nikon NIKKOR Z 24-70mm.jpg',
   },
   {
     name: 'Canon Lenses',
     href: '/rentals/lenses/canon',
-    image: '/camera image/lenses/canon/Canon RF 70-200mm.jpg',
+    image: '/camera-image/lenses/canon/Canon RF 70-200mm.jpg',
   },
   {
     name: 'Sigma Lenses',
     href: '/rentals/lenses/sigma',
-    image: '/camera image/lenses/sigma/Sigma 70-200mm.jpg',
+    image: '/camera-image/lenses/sigma/Sigma 70-200mm.jpg',
   },
 ];
 

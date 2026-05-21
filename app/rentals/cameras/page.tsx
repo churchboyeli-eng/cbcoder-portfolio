@@ -9,7 +9,7 @@ export const metadata = {
 const camerasData = [
   {
     name: 'Sony FX6 Full-Frame Cinema Camera',
-    image: '/camera image/camera/sony fx 6.jpg',
+    image: '/camera-image/camera/sony fx 6.jpg',
     specs: [
       '4K Full-Frame 10.2MP CMOS Exmor R Sensor',
       'DCI 4K60p | UHD 4K120 | 1080p240',
@@ -21,7 +21,7 @@ const camerasData = [
   },
   {
     name: 'Sony FX30 Digital Cinema Camera',
-    image: '/camera image/camera/fx 30.jpg',
+    image: '/camera-image/camera/fx 30.jpg',
     specs: [
       '26.1MP APS-C BSI CMOS Sensor',
       'UHD 4K up to 120p',
@@ -33,7 +33,7 @@ const camerasData = [
   },
   {
     name: 'Sony FX3 Full-Frame Cinema Camera',
-    image: '/camera image/camera/fx3a_fx3.jpg',
+    image: '/camera-image/camera/fx3a_fx3.jpg',
     specs: [
       '12.1MP Full-Frame CMOS Exmor R Sensor',
       'UHD 4K up to 120p | 1080p up to 240p',
@@ -45,7 +45,7 @@ const camerasData = [
   },
   {
     name: 'Sony Alpha a7 IV Mirrorless Camera',
-    image: '/camera image/camera/Sony Alpha A7 IV.jpg',
+    image: '/camera-image/camera/Sony Alpha A7 IV.jpg',
     specs: [
       '33MP Full-Frame Exmor R CMOS Sensor',
       'Up to 10 fps Shooting, ISO 100-51200',
@@ -57,7 +57,7 @@ const camerasData = [
   },
   {
     name: 'Canon EOS R5 C Mirrorless Cinema Camera',
-    image: '/camera image/camera/Canon EOS R5 C Mirrorless Cinema Camera.jpg',
+    image: '/camera-image/camera/Canon EOS R5 C Mirrorless Cinema Camera.jpg',
     specs: [
       '45MP Full-Frame CMOS Sensor',
       '8K 60p Cinema RAW Light Video',
@@ -69,7 +69,7 @@ const camerasData = [
   },
   {
     name: 'Canon EOS R5 Mark II Mirrorless Camera',
-    image: '/camera image/camera/Canon EOS R5 Mark II Mirrorless Camera.jpg',
+    image: '/camera-image/camera/Canon EOS R5 Mark II Mirrorless Camera.jpg',
     specs: [
       '45MP Stacked BSI CMOS Full-Frame Sensor',
       '8K 60p and 4K 120p Video Recording',
@@ -81,7 +81,7 @@ const camerasData = [
   },
   {
     name: 'Canon EOS R5 Mirrorless Camera',
-    image: '/camera image/camera/Canon EOS R5 Mirrorless Camera.jpg',
+    image: '/camera-image/camera/Canon EOS R5 Mirrorless Camera.jpg',
     specs: [
       '45MP Full-Frame CMOS Sensor',
       '8K 30 Raw and 4K 120 10-Bit Internal Video',
@@ -93,7 +93,7 @@ const camerasData = [
   },
   {
     name: 'Canon 5D Mark IV DSLR Camera',
-    image: '/camera image/camera/Canon 5D Mark IV.jpg',
+    image: '/camera-image/camera/Canon 5D Mark IV.jpg',
     specs: [
       '30.4MP Full-Frame CMOS Sensor',
       'DIGIC 6+ Image Processor',
@@ -105,7 +105,7 @@ const camerasData = [
   },
   {
     name: 'Nikon Z6 II Mirrorless Camera',
-    image: '/camera image/camera/Nikon Z 6II .jpg',
+    image: '/camera-image/camera/Nikon Z 6II .jpg',
     specs: [
       '24.5MP Full-Frame BSI CMOS Sensor',
       'Dual EXPEED 6 Image Processors',
@@ -117,7 +117,7 @@ const camerasData = [
   },
   {
     name: 'Nikon Z5 Mirrorless Camera',
-    image: '/camera image/camera/Nikon Z5 ll Mirrorless.jpg',
+    image: '/camera-image/camera/Nikon Z5 ll Mirrorless.jpg',
     specs: [
       '24.3MP Full-Frame CMOS Sensor',
       'EXPEED 6 Image Processor',

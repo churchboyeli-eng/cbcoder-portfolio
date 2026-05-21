@@ -7,7 +7,7 @@ import Link from 'next/link';
 const lensesData = [
   {
     name: 'Nikon NIKKOR Z 24-70mm f/2.8 S',
-    image: '/camera image/lenses/nikon/Nikon NIKKOR Z 24-70mm.jpg',
+    image: '/camera-image/lenses/nikon/Nikon NIKKOR Z 24-70mm.jpg',
     category: 'Standard Zoom',
     dayRate: 22,
     bestFor: 'Events & Weddings',
@@ -15,7 +15,7 @@ const lensesData = [
   },
   {
     name: 'Nikon NIKKOR Z 50mm f/1.8 S',
-    image: '/camera image/lenses/nikon/Nikon NIKKOR Z 50mm.jpg',
+    image: '/camera-image/lenses/nikon/Nikon NIKKOR Z 50mm.jpg',
     category: 'Prime',
     dayRate: 15,
     bestFor: 'Portraits & Everyday',
@@ -23,7 +23,7 @@ const lensesData = [
   },
   {
     name: 'Nikon AF-S 70-200mm f/2.8E FL ED VR',
-    image: '/camera image/lenses/nikon/Nikon AF-S 70-200mm.jpg',
+    image: '/camera-image/lenses/nikon/Nikon AF-S 70-200mm.jpg',
     category: 'Tele Zoom',
     dayRate: 25,
     bestFor: 'Sports & Wildlife',

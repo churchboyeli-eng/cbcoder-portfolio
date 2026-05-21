@@ -7,7 +7,7 @@ import Link from 'next/link';
 const lensesData = [
   {
     name: 'Sigma 24-70mm f/2.8 DG DN Art',
-    image: '/camera image/lenses/sigma/Sigma 24-70mm.jpg',
+    image: '/camera-image/lenses/sigma/Sigma 24-70mm.jpg',
     category: 'Standard Zoom',
     dayRate: 22,
     bestFor: 'Documentary & Weddings',
@@ -15,7 +15,7 @@ const lensesData = [
   },
   {
     name: 'Sigma 70-200mm f/2.8 DG OS HSM Art',
-    image: '/camera image/lenses/sigma/Sigma 70-200mm.jpg',
+    image: '/camera-image/lenses/sigma/Sigma 70-200mm.jpg',
     category: 'Tele Zoom',
     dayRate: 28,
     bestFor: 'Sports & Events',
@@ -23,7 +23,7 @@ const lensesData = [
   },
   {
     name: 'Sigma MC-11 Mount Converter',
-    image: '/camera image/lenses/sigma/Sigma MC-11 Mount .jpg',
+    image: '/camera-image/lenses/sigma/Sigma MC-11 Mount .jpg',
     category: 'Adapter',
     dayRate: 8,
     bestFor: 'Canon EF → Sony E',

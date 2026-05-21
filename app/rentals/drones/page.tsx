@@ -9,7 +9,7 @@ export const metadata = {
 const dronesData = [
   {
     name: 'DJI Mavic 4 Pro Drone',
-    image: '/camera image/drone/DJI Mavic 4 Pro Drone.jpg',
+    image: '/camera-image/drone/DJI Mavic 4 Pro Drone.jpg',
     specs: [
       '4/3 CMOS Hasselblad Main Camera',
       'Up to 6K/60fps, 4K/120fps Video',
@@ -22,7 +22,7 @@ const dronesData = [
   },
   {
     name: 'DJI Air 3S Drone',
-    image: '/camera image/drone/DJI Air 3S Drone.jpg',
+    image: '/camera-image/drone/DJI Air 3S Drone.jpg',
     specs: [
       '1-inch CMOS Main Camera Sensor',
       '4K/60fps, Slow Motion 4K/100fps',
@@ -35,7 +35,7 @@ const dronesData = [
   },
   {
     name: 'DJI Mini 5 Pro Drone',
-    image: '/camera image/drone/DJI Mini 5 Pro Drone.jpg',
+    image: '/camera-image/drone/DJI Mini 5 Pro Drone.jpg',
     specs: [
       '1/1.3-inch CMOS Sensor',
       '4K/60fps HDR Video Recording',
@@ -48,7 +48,7 @@ const dronesData = [
   },
   {
     name: 'DJI Mini 4 Pro Drone',
-    image: '/camera image/drone/DJI Mini 4 Pro.jpg',
+    image: '/camera-image/drone/DJI Mini 4 Pro.jpg',
     specs: [
       '1/1.3-inch CMOS Sensor',
       '4K/60fps HDR Video Recording',

@@ -10,7 +10,7 @@ const gripsData = [
   // ── Gimbals & Stabilisers ──────────────────────────────────
   {
     name: 'DJI RS 5 Pro Gimbal Stabilizer',
-    image: '/camera image/grips/DJI RS 5 Gimbal.jpg',
+    image: '/camera-image/grips/DJI RS 5 Gimbal.jpg',
     category: 'Gimbal',
     specs: [
       'Payload: Up to 4.5 kg / 9.9 lb',
@@ -23,7 +23,7 @@ const gripsData = [
   },
   {
     name: 'DJI RS 4 Pro Gimbal Stabilizer',
-    image: '/camera image/grips/DJI RS 4 Pro.jpg',
+    image: '/camera-image/grips/DJI RS 4 Pro.jpg',
     category: 'Gimbal',
     specs: [
       'Payload: Up to 3 kg / 6.6 lb',
@@ -36,7 +36,7 @@ const gripsData = [
   },
   {
     name: 'DJI RS 4 Mini Gimbal Stabilizer',
-    image: '/camera image/grips/DJI RS 4 Mini.jpg',
+    image: '/camera-image/grips/DJI RS 4 Mini.jpg',
     category: 'Gimbal',
     specs: [
       'Payload: Up to 2 kg / 4.4 lb',
@@ -49,7 +49,7 @@ const gripsData = [
   },
   {
     name: 'DJI Osmo Pocket 3 Creator Combo',
-    image: '/camera image/grips/DJI Osmo Pocket 3.jpg',
+    image: '/camera-image/grips/DJI Osmo Pocket 3.jpg',
     category: 'Gimbal',
     specs: [
       '1-inch CMOS Sensor, f/2.0 Aperture',
@@ -62,7 +62,7 @@ const gripsData = [
   },
   {
     name: 'DJI Osmo Mobile 6 Smartphone Gimbal',
-    image: '/camera image/grips/DJI Osmo.jpg',
+    image: '/camera-image/grips/DJI Osmo.jpg',
     category: 'Gimbal',
     specs: [
       'Payload: Smartphones up to 300g',
@@ -76,7 +76,7 @@ const gripsData = [
   // ── Tripods & Fluid Heads ──────────────────────────────────
   {
     name: 'Sachtler 18 S2 Fluid Head & CF Tripod System',
-    image: '/camera image/grips/Sachtler 18 S2 Fluid Head & CF Tripod System .jpg',
+    image: '/camera-image/grips/Sachtler 18 S2 Fluid Head & CF Tripod System .jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 18 kg / 39.7 lb',
@@ -89,7 +89,7 @@ const gripsData = [
   },
   {
     name: 'Manfrotto 502 / 504 Video Tripod System',
-    image: '/camera image/grips/Manfrotto 502 : 504 Tripod .jpg',
+    image: '/camera-image/grips/Manfrotto 502 : 504 Tripod .jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 7 kg / 15.4 lb',
@@ -102,7 +102,7 @@ const gripsData = [
   },
   {
     name: 'SmallRig CT-10 Aluminum Travel Tripod',
-    image: '/camera image/grips/SmallRig CT-10 Aluminum Travel Tripod with Ball Head.jpg',
+    image: '/camera-image/grips/SmallRig CT-10 Aluminum Travel Tripod with Ball Head.jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 10 kg / 22 lb',
@@ -115,7 +115,7 @@ const gripsData = [
   },
   {
     name: 'E-Image Professional Tripod System',
-    image: '/camera image/grips/E-Image Tripods.jpg',
+    image: '/camera-image/grips/E-Image Tripods.jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 12 kg',
@@ -128,7 +128,7 @@ const gripsData = [
   },
   {
     name: 'Magnus LM-700 Video Monopod',
-    image: '/camera image/grips/Magnus LM-700.jpg',
+    image: '/camera-image/grips/Magnus LM-700.jpg',
     category: 'Monopod',
     specs: [
       'Payload: Up to 7 kg / 15.4 lb',
@@ -141,7 +141,7 @@ const gripsData = [
   },
   {
     name: 'Oben CTT-1000 Carbon Fiber Tabletop Tripod',
-    image: '/camera image/grips/Oben CTT-1000 Carbon Fiber Tabletop Tripod.jpg',
+    image: '/camera-image/grips/Oben CTT-1000 Carbon Fiber Tabletop Tripod.jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 3 kg / 6.6 lb',
@@ -154,7 +154,7 @@ const gripsData = [
   },
   {
     name: 'K&F Concept T254A7 Carbon Fiber Tripod',
-    image: '/camera image/grips/K&F Concept T254A7.jpg',
+    image: '/camera-image/grips/K&F Concept T254A7.jpg',
     category: 'Tripod',
     specs: [
       'Payload: Up to 10 kg / 22 lb',

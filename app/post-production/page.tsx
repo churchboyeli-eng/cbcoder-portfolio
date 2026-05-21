@@ -2,9 +2,18 @@
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
+import VideoModal from '../components/VideoModal';
+
+function getYoutubeId(url: string) {
+  const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&]{11})/);
+  return match ? match[1] : '';
+}
 
 export default function PostProduction() {
   const heroVideoRef = useRef<HTMLImageElement>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [currentVideoId, setCurrentVideoId] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,7 +51,7 @@ export default function PostProduction() {
   return (
     <main style={{ backgroundColor: '#060606', color: '#fff', minHeight: '100vh', overflowX: 'hidden' }}>
       
-      {/* ── HERO SECTION (Similar to Home Hero) ── */}
+      {/* ── HERO SECTION ── */}
       <section className="hero" style={{ height: '100vh', position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Image 
           ref={heroVideoRef}
@@ -90,6 +99,14 @@ export default function PostProduction() {
                   </div>
                 </div>
               );
+              const yId = getYoutubeId(work.link);
+              if (yId) {
+                return (
+                  <div key={index} onClick={() => { setCurrentVideoId(yId); setModalOpen(true); }} style={{ cursor: 'pointer', display: 'block' }}>
+                    {itemContent}
+                  </div>
+                );
+              }
               return work.link !== '#' ? (
                 <a key={index} href={work.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'block' }}>
                   {itemContent}
@@ -111,6 +128,8 @@ export default function PostProduction() {
           Start Post-Production
         </Link>
       </section>
+
+      <VideoModal isOpen={modalOpen} onClose={() => setModalOpen(false)} youtubeId={currentVideoId} />
 
       <style jsx>{`
         .btn-hover:hover {

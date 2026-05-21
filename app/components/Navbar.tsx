@@ -40,7 +40,7 @@ export default function Navbar() {
             <span className="nav-dropdown-trigger">FILMS ▾</span>
             <div className="nav-dropdown-content">
               <Link href="/post-production">POST-PRODUCTION</Link>
-              <Link href="/social-cinema">SOCIAL CINEMA</Link>
+              <Link href="/impact-films">IMPACT FILMS</Link>
             </div>
           </div>
           <Link href="/photography">PHOTOGRAPHY</Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
           {filmsOpen && (
             <div className="mobile-sub-links">
               <Link href="/post-production" className="mobile-sub-link" onClick={() => setMenuOpen(false)}>Post-Production</Link>
-              <Link href="/social-cinema" className="mobile-sub-link" onClick={() => setMenuOpen(false)}>Social Cinema</Link>
+              <Link href="/impact-films" className="mobile-sub-link" onClick={() => setMenuOpen(false)}>Impact Films</Link>
             </div>
           )}
 

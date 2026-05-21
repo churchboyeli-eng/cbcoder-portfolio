@@ -18,14 +18,15 @@ export default function PhotographyPage() {
   return (
     <main style={{ backgroundColor: '#050505' }}>
       <header className="hero" style={{ height: '90vh', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', overflow: 'hidden', pointerEvents: 'none', filter: 'brightness(0.5) contrast(1.1)' }}>
-          <iframe
-            src="https://www.youtube.com/embed/WPpQFh0I5LA?autoplay=1&mute=1&loop=1&playlist=WPpQFh0I5LA&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3"
-            allow="autoplay; encrypted-media"
-            style={{ position: 'absolute', top: '50%', left: '50%', width: '177.78vh', height: '100%', minWidth: '100%', minHeight: '56.25vw', transform: 'translate(-50%, -50%)', border: 'none', pointerEvents: 'none' }}
-          />
-        </div>
-        <div className="hero-overlay" style={{ background: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.9) 100%)', position: 'absolute', inset: 0 }}></div>
+        <Image 
+          src={heroImage}
+          alt="Photography Hero"
+          fill
+          priority
+          sizes="100vw"
+          style={{ objectFit: 'cover', zIndex: 0, filter: 'brightness(0.5) contrast(1.1)' }}
+        />
+        <div className="hero-overlay" style={{ background: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.9) 100%)', position: 'absolute', inset: 0, zIndex: 1 }}></div>
         
         <div className="hero-content" style={{ position: 'relative', zIndex: 2, paddingBottom: '6rem', textAlign: 'center' }}>
           <p style={{ fontSize: '0.7rem', letterSpacing: '0.6em', textTransform: 'uppercase', color: 'var(--accent-color)', marginBottom: '2rem', fontWeight: 700 }}>Behind The Lens</p>

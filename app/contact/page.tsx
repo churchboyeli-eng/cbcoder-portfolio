@@ -53,7 +53,8 @@ export default function Contact() {
             <div className="rep-contact">
               <p><a href="mailto:info@elisante.com">info@elisante.com</a></p>
               <p>+255 684 377 467</p>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginTop: '0.5rem' }}>Dar es Salaam, Tanzania</p>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginTop: '0.5rem' }}>Arusha, Tanzania</p>
+              <p style={{ color: '#cc0000', fontSize: '0.65rem', marginTop: '0.2rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 700 }}>Available Worldwide</p>
             </div>
           </div>
 

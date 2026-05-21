@@ -2,9 +2,18 @@
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
+import VideoModal from '../components/VideoModal';
 
-export default function FilmsForChange() {
+function getYoutubeId(url: string) {
+  const match = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&]{11})/);
+  return match ? match[1] : '';
+}
+
+export default function ImpactFilms() {
   const heroVideoRef = useRef<HTMLImageElement>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [currentVideoId, setCurrentVideoId] = useState('');
 
   useEffect(() => {
     let ticking = false;
@@ -66,7 +75,7 @@ export default function FilmsForChange() {
         <div className="hero-content" style={{ position: 'relative', zIndex: 2, textAlign: 'center', padding: '0 2rem' }}>
           <p style={{ fontSize: '0.7rem', letterSpacing: '0.5em', textTransform: 'uppercase', color: '#cc0000', marginBottom: '1.5rem', fontWeight: 700 }}>Storytelling for Impact</p>
           <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 5.5rem)', fontWeight: 900, lineHeight: 0.9, textTransform: 'uppercase', letterSpacing: '-0.02em' }}>
-            SOCIAL<br/><span style={{ WebkitTextStroke: '1px #fff', color: 'transparent' }}>CINEMA</span>
+            IMPACT<br/><span style={{ WebkitTextStroke: '1px #fff', color: 'transparent' }}>FILMS</span>
           </h1>
           <div style={{ width: '40px', height: '2px', background: '#cc0000', margin: '3rem auto' }}></div>
           <p style={{ maxWidth: '600px', margin: '0 auto', fontSize: '0.9rem', lineHeight: 1.6, color: 'rgba(255,255,255,0.7)', fontWeight: 300 }}>
@@ -103,6 +112,14 @@ export default function FilmsForChange() {
                   </div>
                 </div>
               );
+              const yId = getYoutubeId(film.link);
+              if (yId) {
+                return (
+                  <div key={index} onClick={() => { setCurrentVideoId(yId); setModalOpen(true); }} style={{ cursor: 'pointer', display: 'block' }}>
+                    {cardContent}
+                  </div>
+                );
+              }
               return film.link !== '#' ? (
                 <a key={index} href={film.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'block' }}>
                   {cardContent}
@@ -135,6 +152,8 @@ export default function FilmsForChange() {
           Collaborate With Us
         </Link>
       </section>
+
+      <VideoModal isOpen={modalOpen} onClose={() => setModalOpen(false)} youtubeId={currentVideoId} />
 
       <style jsx>{`
         .cta-btn:hover {

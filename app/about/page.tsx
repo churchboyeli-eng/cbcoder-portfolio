@@ -9,7 +9,6 @@ export const metadata = {
 const stats = [
   { value: '8+',   label: 'Years of Craft'    },
   { value: '200+', label: 'Projects Delivered' },
-  { value: '15+',  label: 'Countries Reached'  },
   { value: '4K',   label: 'Cinema Standard'    },
 ];
 
@@ -108,13 +107,13 @@ export default function AboutPage() {
           </h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <p style={{ fontSize: '0.88rem', lineHeight: 1.9, color: 'rgba(255,255,255,0.5)', fontStyle: 'italic', fontWeight: 300 }}>
-              Documentary and film are more than just moving images; they are a bridge between reality and the viewer&apos;s soul. My approach is immersive and empathetic.
+              Documentary and film are more than just moving images; they are a bridge between reality and the viewer.
             </p>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.9, color: 'rgba(255,255,255,0.35)', fontWeight: 300 }}>
-              I don&apos;t just &quot;shoot&quot; a subject; I spend time understanding the nuances of their story, the rhythm of their environment, and the stakes of their message. Whether it&apos;s a conservation film in the depths of the Tanzanian wilderness or a brand story for a luxury safari lodge, I bring a cinematic lens that elevates the narrative into an unforgettable experience.
+              I immerse myself in the nuances of every story, environment, and message. Whether it&apos;s a conservation film in the Tanzanian wilderness or a brand story for a luxury lodge, I bring a cinematic lens that elevates the narrative.
             </p>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.9, color: 'rgba(255,255,255,0.35)', fontWeight: 300 }}>
-              My technical expertise with 4K cinema standards and high-end gear ensures a professional finish, but it&apos;s the heart behind the lens that truly sets my work apart. I specialize in narrative-driven content that doesn&apos;t just inform but inspires and converts.
+              Driven by narrative impact and technical precision, my work doesn&apos;t just inform—it inspires and converts.
             </p>
           </div>
           <Link href="/contact" style={{ marginTop: '3.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.75rem', color: '#cc0000', fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', textDecoration: 'none', borderBottom: '1px solid rgba(204,0,0,0.3)', paddingBottom: '0.5rem', width: 'fit-content' }}>
@@ -164,26 +163,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ══ 6. TIMELINE ══ */}
-      <section className="about-pad" style={{ padding: '8rem 4rem', borderTop: '1px solid #111', backgroundColor: '#080808' }}>
-        <div style={{ maxWidth: '1300px', margin: '0 auto' }}>
-          <div style={s.eyebrow}><div style={s.line} /><span style={s.tag}>The Journey</span></div>
-          <h2 style={{ fontWeight: 900, fontSize: 'clamp(2rem,4vw,3.5rem)', letterSpacing: '-0.03em', textTransform: 'uppercase', marginBottom: '5rem', color: '#f0f0f0' }}>
-            A Career Built<br /><span style={{ color: '#cc0000' }}>Frame by Frame.</span>
-          </h2>
-          <div className="about-timeline" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0', borderLeft: '1px solid #111' }}>
-            {timeline.map((t, i) => (
-              <div key={i} style={{ padding: '2.5rem 2.5rem 2.5rem 2rem', borderRight: '1px solid #111', position: 'relative' }}>
-                {/* vertical connector */}
-                {i < timeline.length - 1 && (
-                  <div style={{ position: 'absolute', top: '3.4rem', right: '-1px', width: '2px', height: '60%', background: 'linear-gradient(to bottom, #cc0000, transparent)', zIndex: 1 }} />
-                )}
-                <div className="about-timeline-dot" style={{ width: '10px', height: '10px', borderRadius: '50%', backgroundColor: '#cc0000', marginBottom: '1.5rem' }} />
-                <div style={{ fontSize: '0.6rem', fontWeight: 700, letterSpacing: '0.2em', color: '#cc0000', marginBottom: '0.5rem' }}>{t.year}</div>
-                <div style={{ fontSize: '0.92rem', fontWeight: 800, color: '#f0f0f0', marginBottom: '0.75rem', letterSpacing: '0.02em' }}>{t.title}</div>
-                <p style={{ fontSize: '0.78rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.3)', fontWeight: 300 }}>{t.body}</p>
-              </div>
-            ))}
+      {/* ══ 6. TESTIMONIAL / REVIEWS ══ */}
+      <section className="about-pad" style={{ padding: '10rem 4rem', position: 'relative', overflow: 'hidden', backgroundColor: '#060606', borderTop: '1px solid #111' }}>
+        {/* Background glow effects */}
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(204,0,0,0.05) 0%, transparent 70%)', filter: 'blur(40px)', zIndex: 0, pointerEvents: 'none' }} />
+        
+        <div style={{ maxWidth: '1000px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
+          <div style={{ ...s.eyebrow, justifyContent: 'center', marginBottom: '4rem' }}><div style={s.line} /><span style={s.tag}>Client Impact</span><div style={s.line} /></div>
+          
+          <div style={{ 
+            background: 'linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)', 
+            backdropFilter: 'blur(20px)', 
+            border: '1px solid rgba(255,255,255,0.05)', 
+            borderRadius: '2px', 
+            padding: '5rem 4rem', 
+            position: 'relative', 
+            textAlign: 'center',
+            boxShadow: '0 20px 40px rgba(0,0,0,0.4)'
+          }}>
+            <div style={{ position: 'absolute', top: '-30px', left: '50%', transform: 'translateX(-50%)', width: '60px', height: '60px', backgroundColor: '#cc0000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 30px rgba(204,0,0,0.4)' }}>
+              <span style={{ fontSize: '3rem', lineHeight: 0, color: '#060606', fontFamily: 'Georgia, serif', position: 'relative', top: '10px' }}>&ldquo;</span>
+            </div>
+            
+            <h2 style={{ fontWeight: 300, fontSize: 'clamp(1.2rem, 2.5vw, 2rem)', fontStyle: 'italic', lineHeight: 1.8, color: '#f0f0f0', marginBottom: '3.5rem', letterSpacing: '0.02em' }}>
+              &quot;Elisante&apos;s ability to translate complex narratives into breathtaking visuals is unmatched. He doesn&apos;t just deliver footage; he delivers a cinematic experience that transforms how people see our brand.&quot;
+            </h2>
+            
+            <div style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
+              <div style={{ width: '40px', height: '1px', backgroundColor: 'rgba(255,255,255,0.2)' }} />
+              <div style={{ fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#fff', marginTop: '1rem' }}>Global Safari Brand</div>
+              <div style={{ fontSize: '0.65rem', fontWeight: 400, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#cc0000' }}>Marketing Director</div>
+            </div>
           </div>
         </div>
       </section>

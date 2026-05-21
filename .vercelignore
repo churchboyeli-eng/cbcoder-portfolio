@@ -1,3 +1,7 @@
 .git
 .next
 .netlify
+raw_videos_backup/
+release/
+release.zip
+node_modules/

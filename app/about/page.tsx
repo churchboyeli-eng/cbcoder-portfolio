@@ -41,7 +41,7 @@ export default function AboutPage() {
 
       {/* ══ 1. HERO ══ */}
       <section style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems: 'flex-end', paddingBottom: '6rem', overflow: 'hidden' }}>
-        <Image src="/Behind The Scenes/ELIWILD.JPG" alt="Elisante Samson" fill priority style={{ objectFit: 'cover', objectPosition: 'center 20%' }} />
+        <Image src="/behind-the-scenes/eliwild.jpg" alt="Elisante Samson" fill priority style={{ objectFit: 'cover', objectPosition: 'center 20%' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,6,6,0.97) 0%, rgba(6,6,6,0.45) 50%, rgba(6,6,6,0.25) 100%)' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(6,6,6,0.6) 0%, transparent 25%)' }} />
         {/* left red bar */}
@@ -93,7 +93,7 @@ export default function AboutPage() {
       {/* ══ 3. EDITORIAL SPLIT ══ */}
       <section className="about-split" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', borderTop: '1px solid #111' }}>
         <div className="about-img-wrap" style={{ position: 'relative', minHeight: '70vh' }}>
-          <Image src="/Behind The Scenes/documentary-9.JPG" alt="Behind the lens" fill style={{ objectFit: 'cover', filter: 'grayscale(50%) contrast(1.1)' }} />
+          <Image src="/behind-the-scenes/documentary-9.jpg" alt="Behind the lens" fill style={{ objectFit: 'cover', filter: 'grayscale(50%) contrast(1.1)' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(6,6,6,0.9) 0%, transparent 60%)' }} />
           <div style={{ position: 'absolute', bottom: '2.5rem', left: '2.5rem', right: '2.5rem' }}>
             <p style={{ fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#555', marginBottom: '0.4rem' }}>Behind the lens</p>
@@ -127,17 +127,17 @@ export default function AboutPage() {
       {/* ══ 4. 5-IMAGE MOSAIC ══ */}
       <section style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr', gridTemplateRows: '300px 300px', borderTop: '1px solid #111' }}>
         <div className="about-img-wrap" style={{ position: 'relative', gridRow: '1 / 3', borderRight: '1px solid #111' }}>
-          <Image src="/Behind The Scenes/S&C-52.JPG" alt="On location" fill style={{ objectFit: 'cover' }} />
+          <Image src="/behind-the-scenes/sandc-52.jpg" alt="On location" fill style={{ objectFit: 'cover' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'rgba(6,6,6,0.2)' }} />
         </div>
         <div className="about-img-wrap" style={{ position: 'relative', borderBottom: '1px solid #111', borderRight: '1px solid #111' }}>
-          <Image src="/Behind The Scenes/ELIWILD-4.JPG" alt="Wild frame" fill style={{ objectFit: 'cover' }} />
+          <Image src="/behind-the-scenes/eliwild-4.jpg" alt="Wild frame" fill style={{ objectFit: 'cover' }} />
         </div>
         <div className="about-img-wrap" style={{ position: 'relative', borderBottom: '1px solid #111' }}>
-          <Image src="/Behind The Scenes/ELIWILD-7.JPG" alt="Wild frame 2" fill style={{ objectFit: 'cover' }} />
+          <Image src="/behind-the-scenes/eliwild-7.jpg" alt="Wild frame 2" fill style={{ objectFit: 'cover' }} />
         </div>
         <div className="about-img-wrap" style={{ position: 'relative', borderRight: '1px solid #111' }}>
-          <Image src="/Behind The Scenes/Kilitrail-110.JPG" alt="Kili trail" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
+          <Image src="/behind-the-scenes/kilitrail-110.jpg" alt="Kili trail" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
         </div>
         {/* Text tile */}
         <div style={{ backgroundColor: '#cc0000', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '2.5rem', position: 'relative', overflow: 'hidden' }}>
@@ -191,7 +191,7 @@ export default function AboutPage() {
       {/* ══ 7. GIANT QUOTE + IMAGE ══ */}
       <section className="about-triple" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', borderTop: '1px solid #111', minHeight: '65vh' }}>
         <div className="about-img-wrap" style={{ position: 'relative' }}>
-          <Image src="/Behind The Scenes/documentary.JPG" alt="Documentary" fill style={{ objectFit: 'cover', filter: 'grayscale(30%)' }} />
+          <Image src="/behind-the-scenes/documentary.jpg" alt="Documentary" fill style={{ objectFit: 'cover', filter: 'grayscale(30%)' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'rgba(6,6,6,0.3)' }} />
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '5rem 3rem', textAlign: 'center', backgroundColor: '#060606', borderLeft: '1px solid #111', borderRight: '1px solid #111' }}>
@@ -202,7 +202,7 @@ export default function AboutPage() {
           <cite style={{ fontSize: '0.6rem', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: '#cc0000', fontStyle: 'normal' }}>— Elisante Samson, CBCODER</cite>
         </div>
         <div className="about-img-wrap" style={{ position: 'relative' }}>
-          <Image src="/Behind The Scenes/ELIWILD-5.JPG" alt="Elisante" fill style={{ objectFit: 'cover' }} />
+          <Image src="/behind-the-scenes/eliwild-5.jpg" alt="Elisante" fill style={{ objectFit: 'cover' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'rgba(6,6,6,0.25)' }} />
         </div>
       </section>
@@ -252,7 +252,7 @@ export default function AboutPage() {
 
       {/* ══ 9. FULL-WIDTH CINEMATIC CTA ══ */}
       <section style={{ position: 'relative', height: '65vh', borderTop: '1px solid #111', overflow: 'hidden' }}>
-        <Image src="/Behind The Scenes/S&C-75.JPG" alt="CBCODER on location" fill style={{ objectFit: 'cover', objectPosition: 'center 35%' }} />
+        <Image src="/behind-the-scenes/sandc-75.jpg" alt="CBCODER on location" fill style={{ objectFit: 'cover', objectPosition: 'center 35%' }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(6,6,6,0.93) 0%, rgba(6,6,6,0.5) 55%, rgba(6,6,6,0.7) 100%)' }} />
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', padding: '0 4rem' }}>
           <div style={{ maxWidth: '520px' }}>

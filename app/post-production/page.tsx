@@ -19,7 +19,7 @@ export default function PostProduction() {
   const works = [
     { 
       name: 'Mauly Promo', 
-      src: '/Behind The Scenes/ELIWILD.JPG', 
+      src: '/behind-the-scenes/ELIWILD.jpg', 
       link: '#' 
     },
     { 
@@ -29,12 +29,12 @@ export default function PostProduction() {
     },
     { 
       name: 'Daelii', 
-      src: '/Behind The Scenes/documentary.JPG', 
+      src: '/behind-the-scenes/documentary.jpg', 
       link: '#' 
     },
     { 
       name: 'Sanaa', 
-      src: '/Behind The Scenes/ELIWILD-5.JPG', 
+      src: '/behind-the-scenes/ELIWILD-5.jpg', 
       link: '#' 
     },
   ];
@@ -46,7 +46,7 @@ export default function PostProduction() {
       <section className="hero" style={{ height: '100vh', position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Image 
           ref={heroVideoRef}
-          src="/Behind The Scenes/ELIWILD.JPG" 
+          src="/behind-the-scenes/ELIWILD.jpg" 
           alt="Post Production Hero"
           className="hero-bg"
           fill

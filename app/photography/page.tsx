@@ -13,7 +13,7 @@ export default function PhotographyPage() {
   const photos = photoData;
 
   // Use the first image from expedition as hero, fallback to specific one
-  const heroImage = photos.find(p => p.src.includes('expedition'))?.src || "/expedition/kilimanjaro%20-2.JPG";
+  const heroImage = photos.find(p => p.src.includes('expedition'))?.src || "/expedition/kilimanjaro%20-2.jpg";
 
   return (
     <main style={{ backgroundColor: '#050505' }}>

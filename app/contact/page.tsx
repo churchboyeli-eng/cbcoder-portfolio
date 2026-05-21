@@ -34,7 +34,7 @@ export default function Contact() {
           <h1 className="contact-title">Contact</h1>
           <div className="contact-portrait">
             <Image
-              src="/Behind The Scenes/DSC05651.JPG"
+              src="/behind-the-scenes/DSC05651.jpg"
               alt="CBCODER — Cinematographer"
               fill
               style={{ objectFit: 'cover', objectPosition: 'center top', filter: 'grayscale(10%) contrast(1.05)' }}

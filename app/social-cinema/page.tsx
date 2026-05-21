@@ -31,12 +31,12 @@ export default function FilmsForChange() {
     },
     { 
       name: 'Camp Mission', 
-      src: '/Behind The Scenes/ELIWILD-7.JPG', 
+      src: '/behind-the-scenes/ELIWILD-7.jpg', 
       link: '#'
     },
     { 
       name: 'Safari Plus', 
-      src: '/safari/Expedition-50.JPG', 
+      src: '/safari/Expedition-50.jpg', 
       link: '#'
     },
     { 
